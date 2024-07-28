@@ -2,68 +2,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-.intro {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.intro h2 {
-    font-size: 2em;
-}
-
-.intro p {
-    font-size: 1.2em;
-}
-
-.intro button {
-    padding: 10px 20px;
-    font-size: 1em;
-}
-
-.skills {
-    padding: 50px;
     background-color: #f4f4f4;
 }
 
-.skills h2 {
+h1, h2 {
+    color: #333;
     text-align: center;
-    font-size: 2em;
 }
 
-.skill {
+nav {
+    text-align: center;
     margin: 20px 0;
 }
 
-.skill span {
-    display: block;
-    font-size: 1.2em;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
 }
 
-.progress {
-    background-color: #ddd;
-    border-radius: 20px;
-    overflow: hidden;
+nav a:hover {
+    text-decoration: underline;
 }
 
-.progress-bar {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 0;
+ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
-    border-radius: 20px;
+}
+
+ul li {
+    background-color: #007bff;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
 }

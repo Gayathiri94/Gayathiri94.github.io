@@ -49,12 +49,15 @@ nav a {
 .skill-bar {
     background-color: #ddd;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 10px;
     text-align: center;
+    width: 60%; /* Adjust this value to control the width of the bars */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .skill-bar span {
     font-size: 1.2em;
     display: block;
+    color: #333;
 }

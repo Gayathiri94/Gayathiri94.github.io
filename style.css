@@ -25,16 +25,25 @@ nav a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-ul li {
-    background-color: #007bff;
-    color: white;
-    margin: 10px 0;
-    padding: 10px;
+.skill-card {
+    background-color: white;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+    margin: 0;
+    color: #007bff;
 }

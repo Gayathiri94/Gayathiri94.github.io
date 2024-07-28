@@ -33,6 +33,7 @@ nav a {
 .intro button {
     padding: 10px 20px;
     font-size: 1em;
+    cursor: pointer;
 }
 
 .skills {
@@ -45,25 +46,15 @@ nav a {
     font-size: 2em;
 }
 
-.skill {
-    margin: 20px 0;
-}
-
-.skill span {
-    display: block;
-    font-size: 1.2em;
-}
-
-.progress {
+.skill-bar {
     background-color: #ddd;
     border-radius: 20px;
-    overflow: hidden;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
 }
 
-.progress-bar {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    border-radius: 20px;
+.skill-bar span {
+    font-size: 1.2em;
+    display: block;
 }

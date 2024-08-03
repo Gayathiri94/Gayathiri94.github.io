@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', () => {
+    showSection('home'); // Show the home section by default when the page loads
+});
+
 function showSection(sectionId) {
     // Hide all sections
     const sections = document.querySelectorAll('.content-section');

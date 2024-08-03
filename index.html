@@ -8,20 +8,41 @@
     <header>
         <h1>Gayathiri's Portfolio</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="certifications.html">Certifications and MOOCs</a>
-            <a href="contact.html">Contact</a>
+            <a href="#" onclick="showSection('home')">Home</a>
+            <a href="#" onclick="showSection('about')">About</a>
+            <a href="#" onclick="showSection('projects')">Projects</a>
+            <a href="#" onclick="showSection('certifications')">Certifications and MOOCs</a>
+            <a href="#" onclick="showSection('contact')">Contact</a>
         </nav>
     </header>
 
-    <section class="intro">
+    <section id="home" class="content-section">
         <h2>Welcome to My Portfolio</h2>
         <p>Hello, I am Gayathiri N. Welcome to my professional portfolio page!</p>
         <button>View Resume</button>
     </section>
 
-    <section class="skills">
+    <section id="about" class="content-section" style="display: none;">
+        <h2>About Me</h2>
+        <p>About content goes here...</p>
+    </section>
+
+    <section id="projects" class="content-section" style="display: none;">
+        <h2>Projects</h2>
+        <p>Project content goes here...</p>
+    </section>
+
+    <section id="certifications" class="content-section" style="display: none;">
+        <h2>Certifications and MOOCs</h2>
+        <p>Certifications and MOOCs content goes here...</p>
+    </section>
+
+    <section id="contact" class="content-section" style="display: none;">
+        <h2>Contact</h2>
+        <p>Contact content goes here...</p>
+    </section>
+
+    <section class="skills" style="display: none;">
         <h2>Skills</h2>
         <div class="skill-bar">
             <span>Power BI</span>
@@ -39,5 +60,7 @@
             <span>Basic Machine Learning Algorithms</span>
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

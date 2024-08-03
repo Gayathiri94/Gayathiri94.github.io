@@ -1,66 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathiri's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Gayathiri's Portfolio</h1>
         <nav>
-            <a href="#" onclick="showSection('home')">Home</a>
-            <a href="#" onclick="showSection('about')">About</a>
-            <a href="#" onclick="showSection('projects')">Projects</a>
-            <a href="#" onclick="showSection('certifications')">Certifications and MOOCs</a>
-            <a href="#" onclick="showSection('contact')">Contact</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/certifications">Certifications and MOOCs</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="home" class="content-section">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Hello, I am Gayathiri N. Welcome to my professional portfolio page!</p>
-        <button>View Resume</button>
-    </section>
-
-    <section id="about" class="content-section" style="display: none;">
-        <h2>About Me</h2>
-        <p>About content goes here...</p>
-    </section>
-
-    <section id="projects" class="content-section" style="display: none;">
-        <h2>Projects</h2>
-        <p>Project content goes here...</p>
-    </section>
-
-    <section id="certifications" class="content-section" style="display: none;">
-        <h2>Certifications and MOOCs</h2>
-        <p>Certifications and MOOCs content goes here...</p>
-    </section>
-
-    <section id="contact" class="content-section" style="display: none;">
-        <h2>Contact</h2>
-        <p>Contact content goes here...</p>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skill-bar">
-            <span>Power BI</span>
-        </div>
-        <div class="skill-bar">
-            <span>SQL</span>
-        </div>
-        <div class="skill-bar">
-            <span>Excel</span>
-        </div>
-        <div class="skill-bar">
-            <span>Pandas and NumPy</span>
-        </div>
-        <div class="skill-bar">
-            <span>Basic Machine Learning Algorithms</span>
+    <section id="home">
+        <div class="welcome">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, I am Gayathiri N. Welcome to my professional portfolio page!</p>
+            <button onclick="location.href='resume.pdf'">View Resume</button>
         </div>
     </section>
-
-    <script src="script.js"></script>
 </body>
 </html>

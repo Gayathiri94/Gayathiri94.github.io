@@ -1,41 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Navigation</title>
-    <style>
-        .navbar {
-            display: flex;
-            justify-content: space-around; /* Distributes the space evenly between items */
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            background-color: #333; /* Background color for the navigation bar */
-        }
-        .navbar li {
-            display: inline; /* Displays list items in a line */
-        }
-        .navbar a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #575757; /* Color change on hover */
-        }
-    </style>
-</head>
-<body>
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</body>
-</html>
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+nav ul {
+    display: flex; /* Aligns list items in a row */
+    justify-content: center; /* Centers the items horizontally */
+    background-color: #333; /* Background color of the navbar */
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+nav li {
+    margin: 0; /* Removes default margin */
+}
+
+nav a {
+    display: block; /* Makes the link fill the list item */
+    color: white; /* Text color */
+    text-align: center; /* Centers text inside the link */
+    padding: 14px 20px; /* Adds padding around the text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav a:hover {
+    background-color: #575757; /* Changes background on hover */
+}
+            
 
 

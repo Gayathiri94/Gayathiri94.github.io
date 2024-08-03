@@ -20,6 +20,7 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;  /* Space between items */
+    display: inline; /* Ensure the list items are inline */
 }
 
 nav ul li a {
@@ -60,3 +61,5 @@ button:hover {
     margin: 0.5rem 0;
     padding: 1rem;
 }
+  
+ 

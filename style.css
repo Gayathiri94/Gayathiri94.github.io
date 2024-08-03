@@ -14,12 +14,12 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    display: flex;  /* Use flexbox to align items in a row */
+    justify-content: center;  /* Center the items */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 15px;  /* Space between items */
 }
 
 nav ul li a {
